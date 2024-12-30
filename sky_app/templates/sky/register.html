@@ -1,0 +1,65 @@
+{% extends "sky/layout2.html" %}
+
+{% load static %}
+
+{% block title %}
+    Ro'yxatdan o'tish | Tarmoq
+{% endblock %}
+
+{% block script %}
+    <script type"text/javascript" src="{% static 'js/signup.js' %}"></script>
+{% endblock %}
+
+{% block body %}
+    <div class="user-box" style="margin-top: 6vh;">
+        <div>
+            <center>
+                <img src="{% static 'img/icon_logo.png' %}" height="35em" style="margin-bottom: 2vh;">
+                <h3>Parvoz uchun Ro'yxatdan o'tish</h2><br>
+            </center>
+        </div>
+    
+        <form action="{% url 'register' %}" method="post" id="signin-form" style="width: 100%;margin-bottom: 5vh;"  enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group">
+                <div class="form-row align-items-center">
+                <div class="col-sm-6 my-1">
+                    <input class="form-control inp fname" type="text" name="firstname" placeholder="Ism *" autocomplete="off" autofocus>
+                    <span class="star small"></span>
+                </div>
+                <div class="col-sm-6 my-1">
+                    <input class="form-control inp lname" type="text" name="lastname" placeholder="Familya *" autocomplete="off">
+                    <span class="star small"></span>
+                </div>
+            </div>
+            </div>
+            <div class="form-group">
+                <input class="form-control inp usrname" type="text" name="username" placeholder="Foydalanuvchi nomi *" autocomplete="off">
+                <span class="star small">{{message}}</span>
+            </div>
+            <div class="form-group">
+                <input class="form-control inp email" type="email" name="email" placeholder="Elektron pochta manzil *" autocomplete="off">
+                <span class="star small"></span>
+            </div>
+            <div class="form-group">
+                <input class="form-control inp pswd" type="password" name="password" placeholder="Parol *" autocomplete="off">
+                <span class="star small"></span>
+            </div>
+            <div class="form-group">
+                <input class="form-control inp cpswd" type="password" name="confirmation" placeholder="Parolni takrorlang *" autocomplete="off">
+                <span class="star small"></span>
+            </div>
+
+
+            <center>
+                <input class="btn btn-danger" type="submit" value="Ro'yxatdan o'tish" style="margin-top: 10px; width: 95%;" disabled>
+            </center>
+        </form>
+    
+        <div>
+            <center>
+                Sizda xisob bormi?&nbsp;&nbsp;<a href="{% url 'login' %}">Kirish</a>
+            </center>
+        </div><br><br>
+    </div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'sky/layout.html' %}
+
+{% load static %}
+
+{% block head %}
+    <title>Foydalanish shartlari | Parvoz</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/privacy-policy.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
+{% endblock head %}
+
+{% block body %}
+    <section class="privacybanner-section">
+        <img src="{% static 'img/about-us.png' %}" alt="Privacy Policy" class="privacybannerimg">
+    </section>
+    <section class="section section1">
+        <div class="container">
+            <h1>Sayohatingizni biz boshqaramiz, shuning uchun siz qulay parvozdan zavqlaning.</h1>
+            <p>O'tgan asrning 90-yillarida chipta bron qilish aeroportgacha borish va aeroportda uzoq navbatlarda turishni anglatardi. Keyin internet paydo bo'ldi va hamma narsa o'zgardi. Odamlar chiptalarni onlayn bron qilishlari mumkin edi. Davom etayotgan cheklovlarga qaramay, sayohat har qachongidan ham arzonroq bo'ldi. 2018 yilda hindistonlik sayyohlar tomonidan taxminan 2 milliard sayohat amalga oshirildi.</p>
+            <p>Biroq, sayohat tajribasi deyarli o'zgarmadi - sayohat hali ham tartibsiz va noaniq. Odamlar hali ham yomon sayohatlarga duch kelishmoqda.</p>
+            <p>Biz buning asosiy sababi axborot assimetriyasi ekanligini aniqladik. Sayohatchilar odatda sayohatlari haqida ma'lumot topish uchun ko'p mehnat qilishlari kerak. Sayohat juda koʻp maʼlumotlarga boy, biroq maʼlumotlar turli manfaatdor tomonlarga tegishli boʻlib, koʻpincha sayohatchiga oʻz vaqtida yetib bormaydi, natijada umidsizlik, gʻazab va yoqimsiz hislar paydo boʻladi.</p>
+            <p>Bugun biz sayohatimiz qanday bo'lishini - uydan soat nechada chiqishimiz, manzilimizga soat nechada yetib borishimiz va buni olishimiz uchun qanchalik qulay bo'lishimiz haqida aniq tasavvurga ega bo'lmasdan bron qilamiz. sayohat. Sayohat kuni ham biz taksi qidiramiz, tirbandlikka duch kelganimizda asabiylashamiz va o‘z vaqtida yetib borish uchun bort darvozasiga yuguramiz.</p>
+            <p>Biz yaxshiroq yo'l bo'lishi kerakligini his qildik. Shunday qilib, biz Blinctrip-ni yaratdik - bu sizning sayohat tajribangizni kuzatib boradi va kerakli vaqtda kerakli ma'lumotlarni sizga e'tibor bilan etkazib beradi. Bu endi yugurmaslikni anglatadi.</p>
+            <p>Maqsadimiz har safar ajoyib sayohat qilishingizga yordam berishdir. Buning uchun boramiz.</p>
+        </div>
+    </section>
+{% endblock%}

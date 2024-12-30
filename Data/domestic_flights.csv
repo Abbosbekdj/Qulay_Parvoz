@@ -1,0 +1,22 @@
+,origin,destination,depart_time,depart_weekday,duration,arrival_time,arrival_weekday,flight_no,airline_code,airline,economy_fare,business_fare,first_fare
+0,AIA,FIA,08:00:00,1,0:40:00,08:40:00,1,UZ110,UZ1,Uzbekistan Airways,45,80,
+1,TIA,AIA,08:00:00,1,0:40:00,08:40:00,1,UZ110,UZ1,Uzbekistan Airways,45,80,
+2,TIA,BIA,09:15:00,1,0:40:00,10:15:00,1,UZ111,UZ1,Uzbekistan Airways,55,75,65
+3,TIA,FIA,08:20:00,1,0:40:00,09:00:00,1,UZ112,UZ1,Uzbekistan Airways,45,80,50
+4,TIA,SIA,09:45:00,2,2:00:00,11:45:00,2,UZ113,UZ1,Uzbekistan Airways,65,95,75
+5,TIA,SUA,10:00:00,3,3:00:00,13:00:00,3,UZ114,UZ1,Uzbekistan Airways,72,90,70
+6,TIA,SAA,11:15:00,2,2:15:00,13:30:00,2,UZ115,UZ1,Uzbekistan Airways,68,70,55
+7,TIA,JIA,08:25:00,4,4:05:00,12:10:00,4,UZ116,UZ1,Uzbekistan Airways,60,99,85
+8,TIA,XIA,08:45:00,3,3:10:00,11:50:00,3,UZ117,UZ1,Uzbekistan Airways,80,85,79
+9,TIA,QIA,07:15:00,5,5:25:00,12:40:00,5,UZ118,UZ1,Uzbekistan Airways,85,100,85
+10,TIA,QRA,07:00:00,6,6:10:00,13:10:00,6,UZ119,UZ1,Uzbekistan Airways,100,150,90
+11,TIA,NIA,08:50:00,4,4:40:00,12:30:00,4,UZ120,UZ1,Uzbekistan Airways,99,135,90
+12,TIA,NAA,09:00:00,1,0:40:00,09:40:00,1,UZ121,UZ1,Uzbekistan Airways,45,78,56
+13,AIA,TIA,08:00:00,1,0:40:00,08:40:00,1,UZ110,UZ1,Uzbekistan Airways,45,80,
+14,BIA,TIA,09:15:00,1,0:40:00,10:15:00,1,UZ111,UZ1,Uzbekistan Airways,45,75,65
+15,TIA,FIA,08:20:00,1,0:40:00,09:00:00,1,UZ112,UZ1,Uzbekistan Airways,45,80,50
+16,QRA,TIA,07:00:00,6,6:10:00,13:10:00,6,UZ119,UZ1,Uzbekistan Airways,45,150,90
+17,NIA,TIA,08:50:00,4,4:40:00,12:30:00,4,UZ120,UZ1,Uzbekistan Airways,45,135,90
+18,NAA,TIA,09:00:00,1,0:40:00,09:40:00,1,UZ121,UZ1,Uzbekistan Airways,45,78,56
+19,AIA,NAA,09:00:00,1,0:20:00,09:20:00,1,UZ121,UZ1,Uzbekistan Airways,45,78,56
+20,AIA,NIA,08:45:00,4,4:20:00,12:05:00,1,UZ121,UZ1,Uzbekistan Airways,45,125,76
